@@ -1,3 +1,5 @@
+'''https://school.programmers.co.kr/learn/courses/30/lessons/12911'''
+
 def solution(n):
     pramN = n
     answer = bin(n)
@@ -10,5 +12,3 @@ def solution(n):
             break
 
     return pramN
-
-print ( solution(78))
