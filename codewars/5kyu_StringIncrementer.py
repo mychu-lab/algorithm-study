@@ -15,6 +15,3 @@ def increment_string(string):
         return string + '1'
     mid = len(string) - n - len(str(int(num) + 1))
     return string[0:n] + string[n:n+mid]+ str(int(num) + 1)
-
-string = 'foobar001'
-print (increment_string(string))
